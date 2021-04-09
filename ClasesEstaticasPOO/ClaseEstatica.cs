@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PrimeraAplicacion {
     class ClaseEstatica {
         public static readonly double IVA = 19;
-        public static double DOLAR_OBS = 740.4;
+        public static double DOLAR_OBS = 740.1;
 
         private static int[] Valor_Pasaje = {500, 600, 450, 700, 300, 200, 100 };
 
