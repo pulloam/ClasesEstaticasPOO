@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesEstaticasPOO", "ClasesEstaticasPOO\ClasesEstaticasPOO.csproj", "{586D7456-0D48-4D83-AFD5-AE89BDAA0DF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{586D7456-0D48-4D83-AFD5-AE89BDAA0DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586D7456-0D48-4D83-AFD5-AE89BDAA0DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586D7456-0D48-4D83-AFD5-AE89BDAA0DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586D7456-0D48-4D83-AFD5-AE89BDAA0DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AFCE15C-DF00-45BE-BA71-F91808A2C400}
+	EndGlobalSection
+EndGlobal
