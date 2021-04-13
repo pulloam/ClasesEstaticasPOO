@@ -9,13 +9,18 @@ namespace PrimeraAplicacion {
         public static readonly double IVA = 19;
         public static double DOLAR_OBS = 740.4;
 
-        private static int[] Valor_Pasaje = {500, 600, 450, 700, 300, 200, 100 };
+        private static int[] Valor_Pasaje_Dia = {500, 600, 450, 700, 300, 200, 100 };
 
-        private static int[,] Valor_Horario = {
+        private static int[,] Valor_Pasaje_Horario = {
             { 100, 330, 100 },
             { 331, 500, 50 },
-            { 601, 1300, 300 }
+            { 1400, 2100, 300 }
          };
+
+         public static int ValorPasaje(int dia, int hora){ 
+            //TODO: Buscar según dia y hora en los arreglos para retornar valor final del pasaje 
+            return 700;
+         }
 
         private ClaseEstatica() { }
 
@@ -33,17 +38,17 @@ namespace PrimeraAplicacion {
         public static string Valores_Pasaje() { 
             string pasajes = "";
 
-            for (int x = 0; x < Valor_Pasaje.Length; x++) {
-                pasajes += Valor_Pasaje[x].ToString();
+            for (int x = 0; x < Valor_Pasaje_Dia.Length; x++) {
+                pasajes += Valor_Pasaje_Dia[x].ToString();
             } 
 
             pasajes = "";
-            foreach (int dia in Valor_Pasaje) {
+            foreach (int dia in Valor_Pasaje_Dia) {
                 pasajes += dia.ToString() + "\n" ;
             }
 
-            Console.WriteLine("\n\n" + Valor_Horario[1,1].ToString());
-            Console.WriteLine("\n\n" + Valor_Horario.ToString());
+            Console.WriteLine("\n\n" + Valor_Pasaje_Horario[1,1].ToString());
+            Console.WriteLine("\n\n" + Valor_Pasaje_Horario.ToString());
 
             return pasajes;
         }

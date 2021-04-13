@@ -9,6 +9,15 @@ namespace PrimeraAplicacion
     class Program
     {
         static void Main(string[] args){
+            DateTime fechaHoy = DateTime.Now;
+
+
+            //Formato de fecha
+            Console.WriteLine(fechaHoy.ToString("dd/MM/yyyy HH:mm:ss tt"));
+
+
+
+
             Bip b = new Bip("ID-999");
             Bip b1 = new Bip("ID-100");
 

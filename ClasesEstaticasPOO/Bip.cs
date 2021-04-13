@@ -35,13 +35,7 @@ namespace PrimeraAplicacion {
         }
 
         public bool Pagar() { 
-            Console.WriteLine(Math.PI);
-
-
-            if(saldo - 500  >= 0) {
-                saldo = saldo - 500;
-                return true;
-            }
+            ClaseEstatica.ValorPasaje(0, 1405);
 
             return false;
         }
