@@ -45,10 +45,6 @@ namespace PrimeraAplicacion {
             saldo = 10000;
 
             FechaCreacion = DateTime.Now;
-
-            if(saldo is Object) { 
-                
-            }
            
 
         }
